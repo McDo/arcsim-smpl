@@ -11,15 +11,8 @@ if [ $# == 2 -o $# == 3 -o $# == 4 ]; then
 				echo "./conf/$2.json doesn't exist!"
 				exit 1
 			fi
-			# ./run simulate sphere
+			# ./run-smpl simulate smpl
 			./bin/arcsim $1 ./conf/$2.json
-		elif [ $1 == 'replay' ]; then
-			if [[ ! -d "./output/$2" ]]; then
-				echo "./output/$2 doesn't exist!"
-				exit 1
-			fi
-			# ./run replay sphere
-			./bin/arcsim $1 ./output/$2
 		else
 			echo $MSG
 		fi
@@ -31,7 +24,7 @@ if [ $# == 2 -o $# == 3 -o $# == 4 ]; then
 		fi
 
 		if [ $3 == "--output" ]; then
-			# ./run simulate sphere --output
+			# ./run-smpl simulate smpl --output
 			rm -rf ./output/$2
 			mkdir -p ./output/$2
 			./bin/arcsim $1 ./conf/$2.json ./output/$2
@@ -47,12 +40,9 @@ if [ $# == 2 -o $# == 3 -o $# == 4 ]; then
 
 		if [ $3 == "--output" ]; then
 			# ./run simulate sphere --output folder
-			if [[ ! -d ./output/$2 ]]; then
-				mkdir -p ./output/$2
-			fi
-			rm -rf ./output/$2/$4
-			mkdir -p ./output/$2/$4
-			./bin/arcsim $1 ./conf/$2.json ./output/$2/$4
+			rm -rf ./output/$4
+			mkdir -p ./output/$4
+			./bin/arcsim $1 ./conf/$2.json ./output/$4
 		else
 			echo $MSG
 		fi
