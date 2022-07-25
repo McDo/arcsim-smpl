@@ -113,7 +113,7 @@ General use cases can be found [here](https://github.com/McDo/arcsim-smpl/blob/m
 3. Head to the root directory and run
 
 ```bash
-./run.sh [simulate | simulateoffline] [config name eg. sphere] [--output FOLDER NAME]
+./run-smpl.sh [simulate | simulateoffline] [config name eg. sphere] [--output FOLDER NAME]
 ```
 
 ​	For example
