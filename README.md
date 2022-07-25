@@ -39,14 +39,14 @@ General use cases can be found [here](https://github.com/McDo/arcsim-smpl/blob/m
 
    - meshes/
      -  SMPL GROUPS/
-       - SMPL GROUP 1/
-         - body0001.obj
-         - body0002.obj
-         - ...
-         - bodyXXXX.obj
-       - SMPL GROUP 2 (if any) /
-       - ...
-       - base.obj
+        - SMPL GROUP 1/
+            - body0001.obj
+            - body0002.obj
+            - ...
+            - bodyXXXX.obj
+        - SMPL GROUP 2 (if any) /
+        - ...
+        - base.obj
 
    The `base.obj` is the body model in rest pose. It should be positioned at the same level as other group folder(s), and parameterized as the same beta as other models.
 

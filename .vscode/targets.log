@@ -26,6 +26,7 @@ In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/simulation.cpp:27:
@@ -47,9 +48,9 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/separate.cpp:34:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/runphysics.cpp:27:
@@ -58,14 +59,15 @@ In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/proximity.cpp:32:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/plasticity.cpp:32:
@@ -136,27 +138,22 @@ In file included from src/displaytesting.cpp:28:
 In file included from src/conf.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
-
 In file included from src/displayreplay.cpp:29:
 In file included from src/conf.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/displayphysics.cpp:29:
 In file included from src/display.hpp:30:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10: 
-fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -191,9 +188,9 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/collision.cpp:33:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
@@ -203,7 +200,7 @@ src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
 1 error generated.
 
 
-# Make data base, printed on Mon Jul 25 14:47:37 2022
+# Make data base, printed on Mon Jul 25 23:51:19 2022
 
 # Variables
 
@@ -212,7 +209,6 @@ src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
 # automatic
 ?F = $(notdir $?)
 # makefile (from `Makefile', line 23)
- 
 OBJ := auglag.o bah.o bvh.o cloth.o collision.o collisionutil.o conf.o constraint.o dde.o display.o displayphysics.o displayreplay.o displaytesting.o dynamicremesh.o geometry.o handle.o io.o lbfgs.o lsnewton.o magic.o main.o mesh.o misc.o morph.o mot_parser.o nearobs.o nlcg.o obstacle.o physics.o popfilter.o plasticity.o proximity.o remesh.o runphysics.o separate.o separateobs.o simulation.o spline.o strainlimiting.o taucs.o tensormax.o timer.o transformation.o trustregion.o util.o vectors.o
 # environment
 CHROME = /Applications/Google\ \Chrome.app/Contents/MacOS/Google\ \Chrome
@@ -235,6 +231,7 @@ MAKEFILE_LIST :=  Makefile build/dep/bah.d build/dep/bvh.d build/dep/cloth.d bui
 # makefile (from `Makefile', line 7)
 CXXFLAGS := -Idependencies/include -I/usr/local/include
 # environment
+ 
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 VSCODE_CWD = /
@@ -489,7 +486,6 @@ build/dep/lbfgs.d: src/lbfgs.cpp
 # % := 
 # automatic
 # * := lbfgs
- 
 # automatic
 # + := src/lbfgs.cpp
 # automatic
@@ -547,6 +543,7 @@ build/dep/separate.d: src/separate.cpp
 
 # Not a target:
 build/release/separate.o:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -568,7 +565,7 @@ build/dep/handle.d: src/handle.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `handle'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -735,7 +732,7 @@ build/dep/cloth.d: src/cloth.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `cloth'
-#  Last modified 2022-07-25 14:47:31
+#  Last modified 2022-07-25 23:51:13
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -754,6 +751,7 @@ build/release/cloth.o: src/cloth.cpp src/cloth.hpp src/dde.hpp src/sparse.hpp sr
 #  Modification time never checked.
 #  File has not been updated.
 
+ 
 .PHONY: all debug release tags clean
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -763,8 +761,7 @@ build/dep/tensormax.d: src/tensormax.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `tensormax'
-#  Last modified 2022-07-25 14:47:28
- 
+#  Last modified 2022-07-25 23:51:10
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -921,6 +918,7 @@ build/dep/nearobs.d: src/nearobs.cpp
 # automatic
 # < := src/nearobs.cpp
 # automatic
+ 
 # ^ := src/nearobs.cpp
 # automatic
 # ? := src/nearobs.cpp
@@ -945,7 +943,7 @@ build/dep/misc.d: src/misc.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `misc'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -978,7 +976,6 @@ build/dep/separateobs.d: src/separateobs.cpp
 # | := 
 # automatic
 # < := src/separateobs.cpp
- 
 # automatic
 # ^ := src/separateobs.cpp
 # automatic
@@ -1104,6 +1101,7 @@ build/dep/strainlimiting.d: src/strainlimiting.cpp
 #  Failed to be updated.
 # automatic
 # @ := build/dep/strainlimiting.d
+ 
 # automatic
 # % := 
 # automatic
@@ -1150,7 +1148,6 @@ build/release/strainlimiting.o:
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
@@ -1285,7 +1282,7 @@ build/dep/vectors.d: src/vectors.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `vectors'
-#  Last modified 2022-07-25 14:47:27
+#  Last modified 2022-07-25 23:51:09
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1323,15 +1320,15 @@ src/mot_parser.cpp:
 # Not a target:
 build/debug/separate.o:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
 build/dep/util.d: src/util.cpp
+ 
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `util'
-#  Last modified 2022-07-25 14:47:27
+#  Last modified 2022-07-25 23:51:09
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1354,7 +1351,7 @@ build/dep/mot_parser.d: src/mot_parser.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `mot_parser'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:11
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1413,7 +1410,7 @@ build/dep/obstacle.d: src/obstacle.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `obstacle'
-#  Last modified 2022-07-25 14:47:29
+#  Last modified 2022-07-25 23:51:11
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1467,7 +1464,6 @@ build/dep/proximity.d: src/proximity.cpp
 # @ := build/dep/proximity.d
 # automatic
 # % := 
- 
 # automatic
 # * := proximity
 # automatic
@@ -1485,6 +1481,7 @@ build/dep/proximity.d: src/proximity.cpp
 #  commands to execute (from `Makefile', line 95):
 	@set -e; rm -f $@; \
 	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+ 
 	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
 	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
 	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
@@ -1575,7 +1572,7 @@ build/dep/dde.d: src/dde.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `dde'
-#  Last modified 2022-07-25 14:47:31
+#  Last modified 2022-07-25 23:51:13
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1645,13 +1642,13 @@ src/mot_parser.hpp:
 
 # Not a target:
 src/displayreplay.cpp:
- 
 #  Implicit rule search has been done.
 #  Last modified 2020-05-06 16:23:04
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+ 
 
 # Not a target:
 build/debug/nearobs.o:
@@ -1769,7 +1766,7 @@ build/dep/geometry.d: src/geometry.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `geometry'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1812,7 +1809,6 @@ build/dep/displayphysics.d: src/displayphysics.cpp
 	@set -e; rm -f $@; \
 	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
 	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
- 
 	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
 	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
 	rm -f $@.tmp
@@ -1828,7 +1824,7 @@ build/dep/morph.d: src/morph.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `morph'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1836,6 +1832,7 @@ build/dep/morph.d: src/morph.cpp
 #  commands to execute (from `Makefile', line 95):
 	@set -e; rm -f $@; \
 	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+ 
 	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
 	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
 	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
@@ -1932,7 +1929,7 @@ build/dep/trustregion.d: src/trustregion.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `trustregion'
-#  Last modified 2022-07-25 14:47:28
+#  Last modified 2022-07-25 23:51:10
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1965,14 +1962,13 @@ src/bah.cpp:
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
- 
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 build/dep/transformation.d: src/transformation.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `transformation'
-#  Last modified 2022-07-25 14:47:28
+#  Last modified 2022-07-25 23:51:10
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1989,13 +1985,14 @@ build/dep/transformation.d: src/transformation.cpp
 build/release/transformation.o: src/transformation.cpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 build/dep/bah.d: src/bah.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `bah'
-#  Last modified 2022-07-25 14:47:32
+#  Last modified 2022-07-25 23:51:14
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2057,7 +2054,7 @@ build/dep/magic.d: src/magic.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `magic'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2112,7 +2109,6 @@ build/dep/taucs.d: src/taucs.cpp
 #  File has been updated.
 #  Failed to be updated.
 # automatic
- 
 # @ := build/dep/taucs.d
 # automatic
 # % := 
@@ -2160,6 +2156,7 @@ build/release/taucs.o:
 
 build/dep/collision.d: src/collision.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
+ 
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `collision'
 #  Modification time never checked.
@@ -2196,7 +2193,7 @@ build/dep/remesh.d: src/remesh.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `remesh'
-#  Last modified 2022-07-25 14:47:29
+#  Last modified 2022-07-25 23:51:11
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2323,7 +2320,7 @@ build/dep/lsnewton.d: src/lsnewton.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `lsnewton'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2356,7 +2353,6 @@ build/dep/plasticity.d: src/plasticity.cpp
 # automatic
 # * := plasticity
 # automatic
- 
 # + := src/plasticity.cpp
 # automatic
 # | := 
@@ -2403,6 +2399,7 @@ src/magic.hpp:
 #  Modification time never checked.
 #  File has not been updated.
 
+ 
 build/release/geometry.o: src/geometry.cpp src/geometry.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -2430,7 +2427,7 @@ build/dep/bvh.d: src/bvh.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `bvh'
-#  Last modified 2022-07-25 14:47:32
+#  Last modified 2022-07-25 23:51:13
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2593,10 +2590,10 @@ build/release/runphysics.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
 # Not a target:
 build/release/collision.o:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -2635,7 +2632,7 @@ build/dep/spline.d: src/spline.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `spline'
-#  Last modified 2022-07-25 14:47:28
+#  Last modified 2022-07-25 23:51:10
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2653,7 +2650,7 @@ build/dep/constraint.d: src/constraint.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `constraint'
-#  Last modified 2022-07-25 14:47:31
+#  Last modified 2022-07-25 23:51:13
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2710,11 +2707,12 @@ src/bvh.hpp:
 #  Modification time never checked.
 #  File has not been updated.
 
+ 
 build/dep/mesh.d: src/mesh.cpp
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `mesh'
-#  Last modified 2022-07-25 14:47:30
+#  Last modified 2022-07-25 23:51:12
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -2803,6 +2801,6 @@ build/debug/remesh.o: src/remesh.cpp src/remesh.hpp src/mesh.hpp src/transformat
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 3137 / max = 3137 / min = 3137 / avg = 3137
 
-# Finished Make data base on Mon Jul 25 14:47:37 2022
+# Finished Make data base on Mon Jul 25 23:51:19 2022
 
  
