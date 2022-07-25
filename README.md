@@ -3,7 +3,7 @@ SMPL model obstacle support for [Arcsim](http://graphics.berkeley.edu/resources/
 
 With the skinning blending feature of SMPL model integrated, **Arcsim - SMPL** is capable of mass producing a series of cloth deformations physically realistic, which can be used as the dataset for DL model training.
 
-This project is derived from [tomrunia/arcsim](https://github.com/tomrunia/arcsim), check out it's README file for more details.
+This project is derived from [tomrunia/arcsim](https://github.com/tomrunia/arcsim), check out its README file for more details.
 
 ## Installation
 
