@@ -1,0 +1,2808 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+In file included from src/timer.cpp:28:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/taucs.cpp:28:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/strainlimiting.cpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+In file included from src/simulation.cpp:27:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/separateobs.cpp:33:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/separate.cpp:34:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+In file included from src/runphysics.cpp:27:
+In file included from src/runphysics.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+In file included from src/proximity.cpp:32:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+In file included from src/plasticity.cpp:32:
+In file included from src/physics.hpp:32:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/popfilter.cpp:31:
+In file included from src/physics.hpp:32:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/physics.cpp:27:
+In file included from src/physics.hpp:32:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+src/nlcg.cpp:30:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+
+1 error generated.
+
+In file included from src/nearobs.cpp:32:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+In file included from src/main.cpp:27:
+In file included from src/display.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+src/lbfgs.cpp:30:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+In file included from src/io.cpp:29:
+In file included from src/display.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+In file included from src/dynamicremesh.cpp:32:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+In file included from src/displaytesting.cpp:28:
+In file included from src/conf.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/displayreplay.cpp:29:
+In file included from src/conf.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/displayphysics.cpp:29:
+In file included from src/display.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: 
+fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/display.cpp:27:
+In file included from src/display.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/conf.cpp:27:
+In file included from src/conf.hpp:30:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/collisionutil.cpp:29:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+In file included from src/collision.cpp:33:
+In file included from src/simulation.hpp:36:
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+#include <boost/date_time/posix_time/posix_time.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1 error generated.
+
+src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+
+1 error generated.
+
+
+# Make data base, printed on Mon Jul 25 14:47:37 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 23)
+ 
+OBJ := auglag.o bah.o bvh.o cloth.o collision.o collisionutil.o conf.o constraint.o dde.o display.o displayphysics.o displayreplay.o displaytesting.o dynamicremesh.o geometry.o handle.o io.o lbfgs.o lsnewton.o magic.o main.o mesh.o misc.o morph.o mot_parser.o nearobs.o nlcg.o obstacle.o physics.o popfilter.o plasticity.o proximity.o remesh.o runphysics.o separate.o separateobs.o simulation.o spline.o strainlimiting.o taucs.o tensormax.o timer.o transformation.o trustregion.o util.o vectors.o
+# environment
+CHROME = /Applications/Google\ \Chrome.app/Contents/MacOS/Google\ \Chrome
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/dlin/Developer/arcsim-smpl
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `build/dep/vectors.d', line 1)
+MAKEFILE_LIST :=  Makefile build/dep/bah.d build/dep/bvh.d build/dep/cloth.d build/dep/constraint.d build/dep/dde.d build/dep/geometry.d build/dep/handle.d build/dep/lsnewton.d build/dep/magic.d build/dep/mesh.d build/dep/misc.d build/dep/morph.d build/dep/mot_parser.d build/dep/obstacle.d build/dep/remesh.d build/dep/spline.d build/dep/tensormax.d build/dep/transformation.d build/dep/trustregion.d build/dep/util.d build/dep/vectors.d
+# makefile (from `Makefile', line 7)
+CXXFLAGS := -Idependencies/include -I/usr/local/include
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/bin:/Users/dlin/miniconda3/bin:/Users/dlin/miniconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `Makefile', line 12)
+CXXFLAGS_RELEASE := -O3 -Wreturn-type -fopenmp
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 20)
+LDFLAGS := -Ldependencies/lib -L/usr/local/lib -lpng -lz -ltaucs -llapack -lblas -lboost_filesystem -lboost_system -lboost_thread -ljsoncpp -lgomp -lalglib -lglut -lGLU -lGL
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YUuyRNjZao/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.nLCno3XD2n/org.xquartz:0
+# environment
+CONDA_EXE = /Users/dlin/miniconda3/bin/conda
+# environment
+PWD = /Users/dlin/Developer/arcsim-smpl
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/dlin
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/dlin/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = dlin
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+ZSH = /Users/dlin/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 1)
+CC := gcc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = dlin
+# makefile
+.DEFAULT_GOAL := release
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/pl/jmtfq1cn5c36dxvh_ydphwhr0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/dlin/Library/Application Support/Code/1.69.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile (from `Makefile', line 11)
+CXXFLAGS_DEBUG := -Wall -g -Wno-sign-compare
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.19855272.19855278
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 2)
+CXX := g++
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/dlin/miniconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_PREFIX = /Users/dlin/miniconda3
+# environment
+VSCODE_PID = 64320
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=79/1024=8%, Rehash=0, Collisions=8/258=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777231, inode 20204823): 22 files, no impossibilities.
+# src (device 16777231, inode 20204881): 90 files, no impossibilities so far.
+
+# 112 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+build/debug/%.o: src/%.cpp
+#  commands to execute (from `Makefile', line 88):
+	$(CXX) -c $(CPPFLAGS) $(CXXFLAGS) $(CXXFLAGS_DEBUG) $< -o $@
+	
+
+build/release/%.o: src/%.cpp
+#  commands to execute (from `Makefile', line 91):
+	$(CXX) -c $(CPPFLAGS) $(CXXFLAGS) $(CXXFLAGS_RELEASE) $< -o $@
+	
+
+build/dep/%.d: src/%.cpp
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+build/release/lbfgs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/simulation.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-12 19:12:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/simulation.d: src/simulation.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `simulation'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/simulation.d
+# automatic
+# % := 
+# automatic
+# * := simulation
+# automatic
+# + := src/simulation.cpp
+# automatic
+# | := 
+# automatic
+# < := src/simulation.cpp
+# automatic
+# ^ := src/simulation.cpp
+# automatic
+# ? := src/simulation.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/simulation.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/separate.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/lbfgs.d: src/lbfgs.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `lbfgs'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/lbfgs.d
+# automatic
+# % := 
+# automatic
+# * := lbfgs
+ 
+# automatic
+# + := src/lbfgs.cpp
+# automatic
+# | := 
+# automatic
+# < := src/lbfgs.cpp
+# automatic
+# ^ := src/lbfgs.cpp
+# automatic
+# ? := src/lbfgs.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/separate.d: src/separate.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `separate'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/separate.d
+# automatic
+# % := 
+# automatic
+# * := separate
+# automatic
+# + := src/separate.cpp
+# automatic
+# | := 
+# automatic
+# < := src/separate.cpp
+# automatic
+# ^ := src/separate.cpp
+# automatic
+# ? := src/separate.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/separate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/handle.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/debug/lsnewton.o: src/lsnewton.cpp src/optimization.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/taucs.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/handle.d: src/handle.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `handle'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/debug/plasticity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/release/handle.o: src/handle.cpp src/handle.hpp src/constraint.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/sparse.hpp src/util.hpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/spline.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/constraint.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/simulation.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/auglag.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/physics.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/release/proximity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: debug release ctags
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+build/dep/auglag.d: src/auglag.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `auglag'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/auglag.d
+# automatic
+# % := 
+# automatic
+# * := auglag
+# automatic
+# + := src/auglag.cpp
+# automatic
+# | := 
+# automatic
+# < := src/auglag.cpp
+# automatic
+# ^ := src/auglag.cpp
+# automatic
+# ? := src/auglag.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/physics.d: src/physics.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `physics'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/physics.d
+# automatic
+# % := 
+# automatic
+# * := physics
+# automatic
+# + := src/physics.cpp
+# automatic
+# | := 
+# automatic
+# < := src/physics.cpp
+# automatic
+# ^ := src/physics.cpp
+# automatic
+# ? := src/physics.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/auglag.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/physics.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/cloth.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/cloth.d: src/cloth.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `cloth'
+#  Last modified 2022-07-25 14:47:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/cloth.o: src/cloth.cpp src/cloth.hpp src/dde.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all debug release tags clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/tensormax.d: src/tensormax.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `tensormax'
+#  Last modified 2022-07-25 14:47:28
+ 
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/tensormax.o: src/tensormax.cpp src/tensormax.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/popfilter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/dynamicremesh.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/dynamicremesh.d: src/dynamicremesh.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `dynamicremesh'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/dynamicremesh.d
+# automatic
+# % := 
+# automatic
+# * := dynamicremesh
+# automatic
+# + := src/dynamicremesh.cpp
+# automatic
+# | := 
+# automatic
+# < := src/dynamicremesh.cpp
+# automatic
+# ^ := src/dynamicremesh.cpp
+# automatic
+# ? := src/dynamicremesh.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/debug/runphysics.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/morph.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/handle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/spline.o: src/spline.cpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/mesh.hpp src/transformation.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/constraint.o: src/constraint.cpp src/constraint.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/sparse.hpp src/util.hpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/lbfgs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/nearobs.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/tensormax.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/misc.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/separateobs.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-04-27 07:08:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/nearobs.d: src/nearobs.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `nearobs'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/nearobs.d
+# automatic
+# % := 
+# automatic
+# * := nearobs
+# automatic
+# + := src/nearobs.cpp
+# automatic
+# | := 
+# automatic
+# < := src/nearobs.cpp
+# automatic
+# ^ := src/nearobs.cpp
+# automatic
+# ? := src/nearobs.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/nearobs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/misc.d: src/misc.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `misc'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/separateobs.d: src/separateobs.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `separateobs'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/separateobs.d
+# automatic
+# % := 
+# automatic
+# * := separateobs
+# automatic
+# + := src/separateobs.cpp
+# automatic
+# | := 
+# automatic
+# < := src/separateobs.cpp
+ 
+# automatic
+# ^ := src/separateobs.cpp
+# automatic
+# ? := src/separateobs.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/debug/mesh.o: src/mesh.cpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/geometry.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/blockvectors.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/displayreplay.d: src/displayreplay.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `displayreplay'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/displayreplay.d
+# automatic
+# % := 
+# automatic
+# * := displayreplay
+# automatic
+# + := src/displayreplay.cpp
+# automatic
+# | := 
+# automatic
+# < := src/displayreplay.cpp
+# automatic
+# ^ := src/displayreplay.cpp
+# automatic
+# ? := src/displayreplay.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/separateobs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/dde.o: src/dde.cpp src/dde.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/cloth.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/displayreplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/collisionutil.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/displaytesting.d: src/displaytesting.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `displaytesting'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/displaytesting.d
+# automatic
+# % := 
+# automatic
+# * := displaytesting
+# automatic
+# + := src/displaytesting.cpp
+# automatic
+# | := 
+# automatic
+# < := src/displaytesting.cpp
+# automatic
+# ^ := src/displaytesting.cpp
+# automatic
+# ? := src/displaytesting.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/strainlimiting.d: src/strainlimiting.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `strainlimiting'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/strainlimiting.d
+# automatic
+# % := 
+# automatic
+# * := strainlimiting
+# automatic
+# + := src/strainlimiting.cpp
+# automatic
+# | := 
+# automatic
+# < := src/strainlimiting.cpp
+# automatic
+# ^ := src/strainlimiting.cpp
+# automatic
+# ? := src/strainlimiting.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+src/conf.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-18 16:19:54
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/release/displaytesting.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/strainlimiting.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/cloth.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/conf.d: src/conf.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `conf'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/conf.d
+# automatic
+# % := 
+# automatic
+# * := conf
+# automatic
+# + := src/conf.cpp
+# automatic
+# | := 
+# automatic
+# < := src/conf.cpp
+# automatic
+# ^ := src/conf.cpp
+# automatic
+# ? := src/conf.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+src/strainlimiting.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tags:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+build/release/conf.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/optimization.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/tensormax.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-02 20:58:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vectors.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+debug: bin/arcsimd ctags
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+build/debug/auglag.o: src/auglag.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `auglag'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/debug/auglag.o
+# automatic
+# % := 
+# automatic
+# * := auglag
+# automatic
+# + := src/auglag.cpp
+# automatic
+# | := 
+# automatic
+# < := src/auglag.cpp
+# automatic
+# ^ := src/auglag.cpp
+# automatic
+# ? := src/auglag.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  commands to execute (from `Makefile', line 88):
+	$(CXX) -c $(CPPFLAGS) $(CXXFLAGS) $(CXXFLAGS_DEBUG) $< -o $@
+	
+
+build/dep/vectors.d: src/vectors.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `vectors'
+#  Last modified 2022-07-25 14:47:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+src/util.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-06 17:18:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/release/vectors.o: src/vectors.cpp src/vectors.hpp src/winport.hpp src/blockvectors.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/mot_parser.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/debug/separate.o:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/util.d: src/util.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `util'
+#  Last modified 2022-07-25 14:47:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/util.o: src/util.cpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/io.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/mot_parser.d: src/mot_parser.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mot_parser'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/mot_parser.o: src/mot_parser.cpp src/mot_parser.hpp src/obstacle.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/io.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/displayphysics.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-15 11:24:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/debug/handle.o: src/handle.cpp src/handle.hpp src/constraint.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/sparse.hpp src/util.hpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/vectors.o: src/vectors.cpp src/vectors.hpp src/winport.hpp src/blockvectors.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/lbfgs.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/obstacle.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-12 17:38:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/obstacle.d: src/obstacle.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `obstacle'
+#  Last modified 2022-07-25 14:47:29
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/obstacle.o: src/obstacle.cpp src/io.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/obstacle.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/physics.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/proximity.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/display.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-06 11:58:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/proximity.d: src/proximity.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `proximity'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/proximity.d
+# automatic
+# % := 
+ 
+# automatic
+# * := proximity
+# automatic
+# + := src/proximity.cpp
+# automatic
+# | := 
+# automatic
+# < := src/proximity.cpp
+# automatic
+# ^ := src/proximity.cpp
+# automatic
+# ? := src/proximity.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/debug/cloth.o: src/cloth.cpp src/cloth.hpp src/dde.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/display.d: src/display.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `display'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/display.d
+# automatic
+# % := 
+# automatic
+# * := display
+# automatic
+# + := src/display.cpp
+# automatic
+# | := 
+# automatic
+# < := src/display.cpp
+# automatic
+# ^ := src/display.cpp
+# automatic
+# ? := src/display.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/display.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/nlcg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/tensormax.o: src/tensormax.cpp src/tensormax.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/arcsimd: build/debug/auglag.o build/debug/bah.o build/debug/bvh.o build/debug/cloth.o build/debug/collision.o build/debug/collisionutil.o build/debug/conf.o build/debug/constraint.o build/debug/dde.o build/debug/display.o build/debug/displayphysics.o build/debug/displayreplay.o build/debug/displaytesting.o build/debug/dynamicremesh.o build/debug/geometry.o build/debug/handle.o build/debug/io.o build/debug/lbfgs.o build/debug/lsnewton.o build/debug/magic.o build/debug/main.o build/debug/mesh.o build/debug/misc.o build/debug/morph.o build/debug/mot_parser.o build/debug/nearobs.o build/debug/nlcg.o build/debug/obstacle.o build/debug/physics.o build/debug/popfilter.o build/debug/plasticity.o build/debug/proximity.o build/debug/remesh.o build/debug/runphysics.o build/debug/separate.o build/debug/separateobs.o build/debug/simulation.o build/debug/spline.o build/debug/strainlimiting.o build/debug/taucs.o build/debug/tensormax.o build/debug/timer.o build/debug/transformation.o build/debug/trustregion.o build/debug/util.o build/debug/vectors.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  commands to execute (from `Makefile', line 82):
+	$(CXX) $^ -o $@ $(LDFLAGS) $(LDLIBS)
+	
+
+src/dde.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vectors.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/dde.d: src/dde.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `dde'
+#  Last modified 2022-07-25 14:47:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/nlcg.d: src/nlcg.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `nlcg'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/nlcg.d
+# automatic
+# % := 
+# automatic
+# * := nlcg
+# automatic
+# + := src/nlcg.cpp
+# automatic
+# | := 
+# automatic
+# < := src/nlcg.cpp
+# automatic
+# ^ := src/nlcg.cpp
+# automatic
+# ? := src/nlcg.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/dde.o: src/dde.cpp src/dde.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/cloth.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/util.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/mesh.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/mot_parser.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/displayreplay.cpp:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2020-05-06 16:23:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/debug/nearobs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/io.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-12 13:10:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/obstacle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/misc.o: src/misc.cpp src/io.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/separateobs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/displayreplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/io.d: src/io.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `io'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/io.d
+# automatic
+# % := 
+# automatic
+# * := io
+# automatic
+# + := src/io.cpp
+# automatic
+# | := 
+# automatic
+# < := src/io.cpp
+# automatic
+# ^ := src/io.cpp
+# automatic
+# ? := src/io.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/io.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/displaytesting.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/strainlimiting.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/conf.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/geometry.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/timer.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/geometry.d: src/geometry.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `geometry'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/displayphysics.d: src/displayphysics.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `displayphysics'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/displayphysics.d
+# automatic
+# % := 
+# automatic
+# * := displayphysics
+# automatic
+# + := src/displayphysics.cpp
+# automatic
+# | := 
+# automatic
+# < := src/displayphysics.cpp
+# automatic
+# ^ := src/displayphysics.cpp
+# automatic
+# ? := src/displayphysics.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+ 
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/displayphysics.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/morph.d: src/morph.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `morph'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/morph.o: src/morph.cpp src/morph.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/geometry.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/dde.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+release: bin/arcsim ctags
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/util.o: src/util.cpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/io.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/timer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/mot_parser.o: src/mot_parser.cpp src/mot_parser.hpp src/obstacle.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/io.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/trustregion.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/timer.d: src/timer.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `timer'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/timer.d
+# automatic
+# % := 
+# automatic
+# * := timer
+# automatic
+# + := src/timer.cpp
+# automatic
+# | := 
+# automatic
+# < := src/timer.cpp
+# automatic
+# ^ := src/timer.cpp
+# automatic
+# ? := src/timer.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/debug/nlcg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/trustregion.d: src/trustregion.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `trustregion'
+#  Last modified 2022-07-25 14:47:28
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/trustregion.o: src/trustregion.cpp src/optimization.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/taucs.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/transformation.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/bah.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+ 
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/transformation.d: src/transformation.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `transformation'
+#  Last modified 2022-07-25 14:47:28
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/transformation.o: src/transformation.cpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/bah.d: src/bah.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `bah'
+#  Last modified 2022-07-25 14:47:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/bah.o: src/bah.cpp src/bah.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/obstacle.o: src/obstacle.cpp src/io.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/obstacle.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/io.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/magic.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/debug/proximity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/display.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 109):
+	rm -rf bin/* build/debug/* build/release/*
+	
+
+build/dep/magic.d: src/magic.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `magic'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/misc.o: src/misc.cpp src/io.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/release/magic.o: src/magic.cpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/geometry.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/taucs.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/collision.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/taucs.d: src/taucs.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `taucs'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+ 
+# @ := build/dep/taucs.d
+# automatic
+# % := 
+# automatic
+# * := taucs
+# automatic
+# + := src/taucs.cpp
+# automatic
+# | := 
+# automatic
+# < := src/taucs.cpp
+# automatic
+# ^ := src/taucs.cpp
+# automatic
+# ? := src/taucs.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+src/morph.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/remesh.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/release/taucs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/collision.d: src/collision.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `collision'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/collision.d
+# automatic
+# % := 
+# automatic
+# * := collision
+# automatic
+# + := src/collision.cpp
+# automatic
+# | := 
+# automatic
+# < := src/collision.cpp
+# automatic
+# ^ := src/collision.cpp
+# automatic
+# ? := src/collision.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/remesh.d: src/remesh.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `remesh'
+#  Last modified 2022-07-25 14:47:29
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/remesh.o: src/remesh.cpp src/remesh.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/blockvectors.hpp src/geometry.hpp src/util.hpp src/io.hpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/sparse.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/displaytesting.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/release/dynamicremesh.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/main.d: src/main.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `main'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/main.d
+# automatic
+# % := 
+# automatic
+# * := main
+# automatic
+# + := src/main.cpp
+# automatic
+# | := 
+# automatic
+# < := src/main.cpp
+# automatic
+# ^ := src/main.cpp
+# automatic
+# ? := src/main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+bin/arcsim: build/release/auglag.o build/release/bah.o build/release/bvh.o build/release/cloth.o build/release/collision.o build/release/collisionutil.o build/release/conf.o build/release/constraint.o build/release/dde.o build/release/display.o build/release/displayphysics.o build/release/displayreplay.o build/release/displaytesting.o build/release/dynamicremesh.o build/release/geometry.o build/release/handle.o build/release/io.o build/release/lbfgs.o build/release/lsnewton.o build/release/magic.o build/release/main.o build/release/mesh.o build/release/misc.o build/release/morph.o build/release/mot_parser.o build/release/nearobs.o build/release/nlcg.o build/release/obstacle.o build/release/physics.o build/release/popfilter.o build/release/plasticity.o build/release/proximity.o build/release/remesh.o build/release/runphysics.o build/release/separate.o build/release/separateobs.o build/release/simulation.o build/release/spline.o build/release/strainlimiting.o build/release/taucs.o build/release/tensormax.o build/release/timer.o build/release/transformation.o build/release/trustregion.o build/release/util.o build/release/vectors.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 85):
+	$(CXX) $^ -o $@ $(LDFLAGS) $(LDLIBS)
+	
+
+# Not a target:
+build/debug/timer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/transformation.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/lsnewton.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/bah.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/plasticity.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/lsnewton.d: src/lsnewton.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `lsnewton'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/lsnewton.o: src/lsnewton.cpp src/optimization.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/taucs.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/plasticity.d: src/plasticity.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `plasticity'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/plasticity.d
+# automatic
+# % := 
+# automatic
+# * := plasticity
+# automatic
+ 
+# + := src/plasticity.cpp
+# automatic
+# | := 
+# automatic
+# < := src/plasticity.cpp
+# automatic
+# ^ := src/plasticity.cpp
+# automatic
+# ? := src/plasticity.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/debug/io.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/plasticity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ctags:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 105):
+	cd src; ctags -w *.?pp
+	cd src; etags *.?pp
+	
+
+src/magic.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/release/geometry.o: src/geometry.cpp src/geometry.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/bvh.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/debug/bvh.o: src/bvh.cpp src/bvh.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/collision.hpp src/cloth.hpp src/dde.hpp src/sparse.hpp src/constraint.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/geometry.o: src/geometry.cpp src/geometry.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/bvh.d: src/bvh.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `bvh'
+#  Last modified 2022-07-25 14:47:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/debug/displayphysics.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/release/bvh.o: src/bvh.cpp src/bvh.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/collision.hpp src/cloth.hpp src/dde.hpp src/sparse.hpp src/constraint.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/taucs.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/morph.o: src/morph.cpp src/morph.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/geometry.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/collision.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/remesh.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/winport.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/popfilter.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/popfilter.d: src/popfilter.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `popfilter'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/popfilter.d
+# automatic
+# % := 
+# automatic
+# * := popfilter
+# automatic
+# + := src/popfilter.cpp
+# automatic
+# | := 
+# automatic
+# < := src/popfilter.cpp
+# automatic
+# ^ := src/popfilter.cpp
+# automatic
+# ? := src/popfilter.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/release/popfilter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/trustregion.o: src/trustregion.cpp src/optimization.hpp src/sparse.hpp src/util.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/taucs.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/runphysics.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-05-30 15:39:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/runphysics.d: src/runphysics.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `runphysics'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/runphysics.d
+# automatic
+# % := 
+# automatic
+# * := runphysics
+# automatic
+# + := src/runphysics.cpp
+# automatic
+# | := 
+# automatic
+# < := src/runphysics.cpp
+# automatic
+# ^ := src/runphysics.cpp
+# automatic
+# ? := src/runphysics.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/debug/transformation.o: src/transformation.cpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/runphysics.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/collision.o:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/bah.o: src/bah.cpp src/bah.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/spline.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/constraint.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/nlcg.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/dep/spline.d: src/spline.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `spline'
+#  Last modified 2022-07-25 14:47:28
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/dep/constraint.d: src/constraint.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `constraint'
+#  Last modified 2022-07-25 14:47:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/debug/dynamicremesh.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/release/spline.o: src/spline.cpp src/spline.hpp src/vectors.hpp src/winport.hpp src/util.hpp src/mesh.hpp src/transformation.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/release/constraint.o: src/constraint.cpp src/constraint.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/sparse.hpp src/util.hpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/magic.o: src/magic.cpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/mesh.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/collisionutil.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-10-24 11:53:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/bvh.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/mesh.d: src/mesh.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mesh'
+#  Last modified 2022-07-25 14:47:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+build/release/mesh.o: src/mesh.cpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/geometry.hpp src/util.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/dep/collisionutil.d: src/collisionutil.cpp
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `collisionutil'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build/dep/collisionutil.d
+# automatic
+# % := 
+# automatic
+# * := collisionutil
+# automatic
+# + := src/collisionutil.cpp
+# automatic
+# | := 
+# automatic
+# < := src/collisionutil.cpp
+# automatic
+# ^ := src/collisionutil.cpp
+# automatic
+# ? := src/collisionutil.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/21=5%
+#  commands to execute (from `Makefile', line 95):
+	@set -e; rm -f $@; \
+	$(CXX) -MM $(CXXFLAGS) $< -o $@.tmp; \
+	sed 's,\($*\)\.o[ :]*,build/debug/\1.o build/release/\1.o: ,g' < $@.tmp > $@; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $@.tmp >> $@; \
+	rm -f $@.tmp
+	
+
+# Not a target:
+build/debug/taucs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/release/collisionutil.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/debug/collision.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/debug/remesh.o: src/remesh.cpp src/remesh.hpp src/mesh.hpp src/transformation.hpp src/spline.hpp src/vectors.hpp src/winport.hpp src/blockvectors.hpp src/geometry.hpp src/util.hpp src/io.hpp src/magic.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=221/1024=22%, Rehash=0, Collisions=137/1021=13%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 47
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3137 / max = 3137 / min = 3137 / avg = 3137
+
+# Finished Make data base on Mon Jul 25 14:47:37 2022
+
+ 

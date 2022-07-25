@@ -1,0 +1,48 @@
+{
+    "non_rigid": true,
+    "frame_time": 0.033,
+    "init_frame_steps": 20,
+    "init_wait_frames": 4,
+    "frame_steps": 10,
+    "cloths": [
+        {
+            "mesh": "meshes/tshirt-template-refine.obj",
+            "materials": [
+                {
+                    "data": "materials/gray-interlock.json",
+                    "yield_curv": 200,
+                    "damping": 0.001
+                }
+            ],
+            "remeshing": {
+                "refine_angle": 0.3,
+                "refine_compression": 0.01,
+                "refine_velocity": 0.5,
+                "size": [
+                    0.01,
+                    0.2
+                ],
+                "aspect_min": 0.2
+            }
+        }
+    ],
+    "motions": [],
+    "obstacles": [
+        {
+            "mesh": "meshes/smpl/neutral/test/1/"
+        }
+    ],
+    "gravity": [
+        0,
+        -9.8,
+        0
+    ],
+    "disable": [
+        "popfilter",
+        "remeshing"
+    ],
+    "magic": {
+        "repulsion_thickness": 0.005,
+        "collision_stiffness": 1000000.0
+    }
+}

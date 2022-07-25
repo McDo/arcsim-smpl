@@ -1,0 +1,34 @@
+// Layered clothing on male character performing martial arts moves
+// Narain et al. 2012, Figure 1
+{
+    "frame_time": 0.04,
+    "frame_steps": 8,
+    "end_time": 20,
+    "cloths": [{
+        "mesh": "meshes/tshirt.obj",
+        "transform": {"translate": [0, 0, 0.5]},
+        "materials": [{
+            "data": "materials/gray-interlock.json",
+            "strain_limits": [0.95, 1.05]
+        }],
+        "remeshing": {
+            "refine_angle": 0.3,
+            "refine_compression": 0.01,
+            "refine_velocity": 0.5,
+            "size": [10e-3, 200e-3],
+            "aspect_min": 0.2
+        }
+    }],
+    "obstacles": "meshes/guy_shrunk/body%04d.obj",
+    "motions": {
+        "motfile": "meshes/karate-smooth.mot",
+        "fps": 120,
+        "transform": {
+            "translate": [3, -0.85, -0.7],
+            "rotate": [180, 0, 0, 1]
+        }
+    },
+    "gravity": [0, 0, -9.8],
+    "disable": ["remeshing"],
+    "magic": {"repulsion_thickness": 5e-3, "collision_stiffness": 1e6}
+}
