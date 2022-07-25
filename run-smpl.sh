@@ -1,6 +1,6 @@
 #! /bin/bash
 
-MSG="[usage]: ./run.sh [simulate | simulateoffline] [config name eg. sphere] [--output FOLDER NAME]"
+MSG="[usage]: ./run-smpl.sh [simulate | simulateoffline] [config name eg. sphere] [--output FOLDER NAME]"
 
 if [ $# == 2 -o $# == 3 -o $# == 4 ]; then
 	
