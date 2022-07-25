@@ -31,7 +31,7 @@ Finally build the program from root directory.
 
 ## Usage
 
-General use cases can be found [here]()
+General use cases can be found [here](https://github.com/McDo/arcsim-smpl/blob/main/README_tomrunia)
 
 #### How to use SMPL model as an obstacle
 
@@ -54,17 +54,17 @@ General use cases can be found [here]()
 
 2. In the `conf` folder, define your smpl config file as
 
-```json
+```javascript
 {
-  	// must be true for SMPL obstacle
+  // must be true for SMPL obstacle
     "non_rigid": true,
-  	// transition time between adjacent frames
+  // transition time between adjacent frames
     "frame_time": 0.033, 
-  	// num of steps per frame to rest the cloth initially
+  // num of steps per frame to rest the cloth initially
     "init_frame_steps": 20, 
-  	// num of frames to wait until cloth rest, 20x3 steps to wait in this case
+  // num of frames to wait until cloth rest, 20x3 steps to wait in this case
     "init_wait_frames": 3, 
-  	// num of steps for each frame, except for the initial frame(s)
+  // num of steps for each frame, except for the initial frame(s)
     "frame_steps": 30,
     "cloths": [
         {
