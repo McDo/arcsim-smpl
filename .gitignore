@@ -1,3 +1,4 @@
 ./bin/arcsim
 .DS_Store
 .vscode
+*.log

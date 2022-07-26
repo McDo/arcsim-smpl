@@ -91,7 +91,7 @@ General use cases can be found [here](https://github.com/McDo/arcsim-smpl/blob/m
     "motions": [],
     "obstacles": [
         {
-            "mesh": "meshes/SMPL GROUPS/SMPL GROUPS N/"
+            "mesh": "meshes/SMPL GROUPS/SMPL GROUP N/"
         }
     ],
     "gravity": [

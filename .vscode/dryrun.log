@@ -35,10 +35,11 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 
 In file included from src/separateobs.cpp:33:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
+src/timer.hpp
+:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/separate.cpp:34:
@@ -60,10 +61,10 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 
 In file included from src/proximity.cpp:32:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+src/timer.hpp:34:
+10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/plasticity.cpp:32:
@@ -88,7 +89,6 @@ In file included from src/physics.cpp:27:
 In file included from src/physics.hpp:32:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -103,9 +103,9 @@ src/nlcg.cpp:30:10: fatal error: 'omp.h' file not found
 In file included from src/nearobs.cpp:32:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/main.cpp:27:
@@ -170,6 +170,7 @@ In file included from src/display.cpp:27:
 In file included from src/display.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -179,6 +180,7 @@ In file included from src/conf.cpp:27:
 In file included from src/conf.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -187,18 +189,19 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/collisionutil.cpp:29:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/collision.cpp:33:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1 error generated.
+1 error
+ generated.
 
 src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
 #include <omp.h>
@@ -219,7 +222,6 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 
 In file included from src/taucs.cpp:28:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -252,9 +254,9 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/separate.cpp:34:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/runphysics.cpp:27:
@@ -278,9 +280,9 @@ In file included from src/plasticity.cpp:32:
 In file included from src/physics.hpp:32:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/popfilter.cpp:31:
@@ -319,9 +321,9 @@ In file included from src/main.cpp:27:
 In file included from src/display.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 src/lbfgs.cpp:30:10: fatal error: 'omp.h' file not found
@@ -332,8 +334,7 @@ src/lbfgs.cpp:30:10: fatal error: 'omp.h' file not found
 
 In file included from src/io.cpp:29:
 In file included from src/display.hpp:30:
-In file included from src/simulation.hpp:
-36:
+In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -368,7 +369,8 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/displayphysics.cpp:29:
 In file included from src/display.hpp:30:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+src/timer.hpp:34:10: fatal error: 
+'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -396,8 +398,8 @@ In file included from src/collisionutil.cpp:29:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
-         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
 
 In file included from src/collision.cpp:33:
@@ -405,12 +407,13 @@ In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
+
 #include <omp.h>
          ^~~~~~~
-
 1 error generated.
 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/auglag.cpp -o build/release/auglag.o
@@ -456,9 +459,9 @@ g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp s
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/nlcg.cpp -o build/release/nlcg.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/obstacle.cpp -o build/release/obstacle.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/physics.cpp -o build/release/physics.o
- 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/popfilter.cpp -o build/release/popfilter.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/plasticity.cpp -o build/release/plasticity.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/proximity.cpp -o build/release/proximity.o
  
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/remesh.cpp -o build/release/remesh.o
