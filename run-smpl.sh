@@ -1,6 +1,6 @@
 #! /bin/bash
 
-MSG="[usage]: ./run-smpl.sh [simulate | simulateoffline] [config name eg. sphere] [--output FOLDER NAME]"
+MSG="[usage]: ./run-smpl.sh [simulate | simulateoffline] [config name eg. smpl] [--output FOLDER NAME]"
 
 if [ $# == 2 -o $# == 3 -o $# == 4 ]; then
 	
@@ -39,7 +39,7 @@ if [ $# == 2 -o $# == 3 -o $# == 4 ]; then
 		fi
 
 		if [ $3 == "--output" ]; then
-			# ./run simulate sphere --output folder
+			# ./run-smpl simulate smpl --output folder
 			rm -rf ./output/$4
 			mkdir -p ./output/$4
 			./bin/arcsim $1 ./conf/$2.json ./output/$4
