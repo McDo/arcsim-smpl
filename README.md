@@ -25,7 +25,7 @@ You will need to have the following libraries installed:
 
 You should be able to get all of them through your distribution's package manager.
 
-Build the dependencies inside the `dependencies/` foldor after installing the prerequisite libraries. Learn more detials from `dependencies/README_runia.md`
+Build the dependencies inside the `dependencies/` folder after installing the prerequisite libraries. Learn more detials from `dependencies/README_runia.md`
 
 Finally build the program from root directory.
 
