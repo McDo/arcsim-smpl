@@ -2,8 +2,8 @@ make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/dlin/Developer/arcsim-smpl'
  
 In file included from src/timer.cpp:28:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
+src/timer.hpp:34:10: fatal error: 
+'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -11,7 +11,6 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 
 In file included from src/taucs.cpp:28:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -19,16 +18,16 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 
 In file included from src/strainlimiting.cpp:30:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10:
- fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/simulation.cpp:27:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -36,17 +35,16 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 
 In file included from src/separateobs.cpp:33:
 In file included from src/simulation.hpp:36:
-
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/separate.cpp:34:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:
-10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+src/timer.hpp:34
+:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -56,7 +54,6 @@ In file included from src/runphysics.cpp:27:
 In file included from src/runphysics.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -76,6 +73,7 @@ In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/popfilter.cpp:31:
@@ -83,21 +81,21 @@ In file included from src/physics.hpp:32:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
-
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
 
 In file included from src/physics.cpp:27:
 In file included from src/physics.hpp:32:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
+src/timer.hpp:34:10:
+ fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1 error generated.
 
 src/nlcg.cpp:30:10: fatal error: 'omp.h' file not found
+
 #include <omp.h>
          ^~~~~~~
 1 error generated.
@@ -107,6 +105,7 @@ In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/main.cpp:27:
@@ -121,7 +120,6 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 src/lbfgs.cpp:30:10: fatal error: 'omp.h' file not found
 #include <omp.h>
          ^~~~~~~
-
 1 error generated.
 
 In file included from src/io.cpp:29:
@@ -134,16 +132,17 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 1 error generated.
 
 In file included from src/dynamicremesh.cpp:32:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+src/timer.hpp:34:10:
+ fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/displaytesting.cpp:28:
 In file included from src/conf.hpp:30:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+src/timer.hpp:
+34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -162,7 +161,6 @@ In file included from src/displayphysics.cpp:29:
 In file included from src/display.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -204,9 +202,9 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 1 error generated.
 
 src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
-
 #include <omp.h>
          ^~~~~~~
+
 1 error generated.
 
 make: Leaving directory `/Users/dlin/Developer/arcsim-smpl'
@@ -238,9 +236,9 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/simulation.cpp:27:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
+
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1 error generated.
 
 In file included from src/separateobs.cpp:33:
@@ -254,7 +252,6 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/separate.cpp:34:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -272,25 +269,25 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 In file included from src/proximity.cpp:32:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/plasticity.cpp:32:
 In file included from src/physics.hpp:32:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/popfilter.cpp:31:
 In file included from src/physics.hpp:32:
 In file included from src/simulation.hpp:36:
-src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
+src/timer.hpp:34:
+10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
@@ -362,7 +359,6 @@ In file included from src/displayreplay.cpp:29:
 In file included from src/conf.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -381,7 +377,6 @@ In file included from src/display.cpp:27:
 In file included from src/display.hpp:30:
 In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
-
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -401,6 +396,7 @@ In file included from src/simulation.hpp:36:
 src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' file not found
 #include <boost/date_time/posix_time/posix_time.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1 error generated.
 
 In file included from src/collision.cpp:33:
@@ -412,9 +408,9 @@ src/timer.hpp:34:10: fatal error: 'boost/date_time/posix_time/posix_time.hpp' fi
 1 error generated.
 
 src/auglag.cpp:30:10: fatal error: 'omp.h' file not found
-
 #include <omp.h>
          ^~~~~~~
+
 1 error generated.
 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/auglag.cpp -o build/release/auglag.o
@@ -422,15 +418,15 @@ g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp s
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/bah.cpp -o build/release/bah.o
  
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/bvh.cpp -o build/release/bvh.o
- 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/cloth.cpp -o build/release/cloth.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/collision.cpp -o build/release/collision.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/collisionutil.cpp -o build/release/collisionutil.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/conf.cpp -o build/release/conf.o
  
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/constraint.cpp -o build/release/constraint.o
- 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/dde.cpp -o build/release/dde.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/display.cpp -o build/release/display.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/displayphysics.cpp -o build/release/displayphysics.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/displayreplay.cpp -o build/release/displayreplay.o
@@ -440,8 +436,8 @@ g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp s
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/geometry.cpp -o build/release/geometry.o
  
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/handle.cpp -o build/release/handle.o
-g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/io.cpp -o build/release/io.o
  
+g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/io.cpp -o build/release/io.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/lbfgs.cpp -o build/release/lbfgs.o
  
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/lsnewton.cpp -o build/release/lsnewton.o
@@ -453,22 +449,26 @@ g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp s
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/misc.cpp -o build/release/misc.o
  
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/morph.cpp -o build/release/morph.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/mot_parser.cpp -o build/release/mot_parser.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/nearobs.cpp -o build/release/nearobs.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/nlcg.cpp -o build/release/nlcg.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/obstacle.cpp -o build/release/obstacle.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/physics.cpp -o build/release/physics.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/popfilter.cpp -o build/release/popfilter.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/plasticity.cpp -o build/release/plasticity.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/proximity.cpp -o build/release/proximity.o
  
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/remesh.cpp -o build/release/remesh.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/runphysics.cpp -o build/release/runphysics.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/separate.cpp -o build/release/separate.o
- 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/separateobs.cpp -o build/release/separateobs.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/simulation.cpp -o build/release/simulation.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/spline.cpp -o build/release/spline.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/strainlimiting.cpp -o build/release/strainlimiting.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/taucs.cpp -o build/release/taucs.o
  
@@ -478,10 +478,10 @@ g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp s
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/transformation.cpp -o build/release/transformation.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/trustregion.cpp -o build/release/trustregion.o
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/util.cpp -o build/release/util.o
+ 
 g++ -c  -Idependencies/include -I/usr/local/include -O3 -Wreturn-type -fopenmp src/vectors.cpp -o build/release/vectors.o
 g++ build/release/auglag.o build/release/bah.o build/release/bvh.o build/release/cloth.o build/release/collision.o build/release/collisionutil.o build/release/conf.o build/release/constraint.o build/release/dde.o build/release/display.o build/release/displayphysics.o build/release/displayreplay.o build/release/displaytesting.o build/release/dynamicremesh.o build/release/geometry.o build/release/handle.o build/release/io.o build/release/lbfgs.o build/release/lsnewton.o build/release/magic.o build/release/main.o build/release/mesh.o build/release/misc.o build/release/morph.o build/release/mot_parser.o build/release/nearobs.o build/release/nlcg.o build/release/obstacle.o build/release/physics.o build/release/popfilter.o build/release/plasticity.o build/release/proximity.o build/release/remesh.o build/release/runphysics.o build/release/separate.o build/release/separateobs.o build/release/simulation.o build/release/spline.o build/release/strainlimiting.o build/release/taucs.o build/release/tensormax.o build/release/timer.o build/release/transformation.o build/release/trustregion.o build/release/util.o build/release/vectors.o -o bin/arcsim -Ldependencies/lib -L/usr/local/lib -lpng -lz -ltaucs -llapack -lblas -lboost_filesystem -lboost_system -lboost_thread -ljsoncpp -lgomp -lalglib -lglut -lGLU -lGL 
 cd src; ctags -w *.?pp
- 
 cd src; etags *.?pp
 make: Leaving directory `/Users/dlin/Developer/arcsim-smpl'
  

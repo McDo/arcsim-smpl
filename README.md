@@ -43,7 +43,7 @@ General use cases can be found [here](https://github.com/McDo/arcsim-smpl/blob/m
             - body0001.obj
             - body0002.obj
             - ...
-            - bodyXXXX.obj
+            - body%04d.obj
         - SMPL GROUP 2 (if any) /
         - ...
         - base.obj
